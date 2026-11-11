@@ -1,0 +1,28 @@
+name: 检查图标主题
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 检查映射和图标资源
+        run: python scripts/check_theme.py
+      - name: 下载官方校验工具
+        run: |
+          curl --fail --location --retry 3 https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/openidea-plugin-linux-x86_64.gz -o /tmp/openidea-plugin.gz
+          echo '24ee120405fabe75b7404fbe57d39091385fd5a06361103a22596d87212e8fa0  /tmp/openidea-plugin.gz' | sha256sum --check
+          gunzip -c /tmp/openidea-plugin.gz > /tmp/openidea-plugin
+          chmod +x /tmp/openidea-plugin
+      - name: 官方检查及打包
+        run: |
+          /tmp/openidea-plugin check .
+          /tmp/openidea-plugin pack . --out /tmp/extra-icons.oiplugin
+          /tmp/openidea-plugin check /tmp/extra-icons.oiplugin

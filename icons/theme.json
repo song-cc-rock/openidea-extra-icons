@@ -1,0 +1,4048 @@
+{
+  "iconDefinitions": {
+    "dir_circleci": {
+      "light": "icons/folder_circleci.svg"
+    },
+    "dir_dependabot": {
+      "light": "icons/folder_dependabot.svg"
+    },
+    "dir_docker": {
+      "light": "icons/folder_docker.svg"
+    },
+    "dir_fleet": {
+      "light": "icons/newui/folder_fleet.svg",
+      "dark": "icons/newui/folder_fleet_dark.svg"
+    },
+    "dir_github": {
+      "light": "icons/folder_github.svg"
+    },
+    "dir_gitlab": {
+      "light": "icons/folder_gitlab.svg"
+    },
+    "dir_idea": {
+      "light": "icons/folder_idea.svg"
+    },
+    "dir_ideasandbox": {
+      "light": "icons/folder_idea.svg"
+    },
+    "dir_idearun": {
+      "light": "icons/folder_idea.svg"
+    },
+    "dir_jpabuddy": {
+      "light": "icons/newui/folder_jpabuddy.svg",
+      "dark": "icons/newui/folder_jpabuddy_dark.svg"
+    },
+    "dir_mergify": {
+      "light": "icons/folder_mergify.svg"
+    },
+    "dir_mps": {
+      "light": "icons/folder_idea.svg"
+    },
+    "dir_mvn": {
+      "light": "icons/folder_mvnw.svg"
+    },
+    "dir_node_modules": {
+      "light": "icons/folder_node_modules.svg"
+    },
+    "dir_nuget": {
+      "light": "icons/folder_nuget.svg"
+    },
+    "dir_pytest_cache": {
+      "light": "icons/newui/folder_tmp.svg",
+      "dark": "icons/newui/folder_tmp_dark.svg"
+    },
+    "dir_python_venv": {
+      "light": "icons/newui/folder_python_venv.svg",
+      "dark": "icons/newui/folder_python_venv_dark.svg"
+    },
+    "dir_python_venv_nodot": {
+      "light": "icons/newui/folder_python_venv.svg",
+      "dark": "icons/newui/folder_python_venv_dark.svg"
+    },
+    "dir_python_egginfo": {
+      "light": "icons/newui/folder_tmp.svg",
+      "dark": "icons/newui/folder_tmp_dark.svg"
+    },
+    "dir_python_dottox": {
+      "light": "icons/newui/folder_tmp.svg",
+      "dark": "icons/newui/folder_tmp_dark.svg"
+    },
+    "dir_teamcity": {
+      "light": "icons/newui/folder_teamcity.svg",
+      "dark": "icons/newui/folder_teamcity_dark.svg"
+    },
+    "dir_vscode_settings": {
+      "light": "icons/folder_vscode.svg"
+    },
+    "dir_semaphoreci": {
+      "light": "icons/folder_semaphoreci.svg"
+    },
+    "dir_expo": {
+      "light": "icons/expo_folder.svg"
+    },
+    "dir_storybook": {
+      "light": "icons/folder_storybook.svg"
+    },
+    "dir_flyway": {
+      "light": "icons/folder_flyway.svg"
+    },
+    "dir_flyway_db2": {
+      "light": "icons/newui/folder_db2.svg",
+      "dark": "icons/newui/folder_db2_dark.svg"
+    },
+    "dir_flyway_h2": {
+      "light": "icons/newui/folder_h2.svg",
+      "dark": "icons/newui/folder_h2_dark.svg"
+    },
+    "dir_flyway_hsqldb": {
+      "light": "icons/newui/folder_hsqldb.svg",
+      "dark": "icons/newui/folder_hsqldb_dark.svg"
+    },
+    "dir_flyway_mariadb": {
+      "light": "icons/newui/folder_mariadb.svg",
+      "dark": "icons/newui/folder_mariadb_dark.svg"
+    },
+    "dir_flyway_mysql": {
+      "light": "icons/newui/folder_mysql.svg",
+      "dark": "icons/newui/folder_mysql_dark.svg"
+    },
+    "dir_flyway_postgresql": {
+      "light": "icons/newui/folder_postgresql.svg",
+      "dark": "icons/newui/folder_postgresql_dark.svg"
+    },
+    "dir_flyway_sqlite": {
+      "light": "icons/newui/folder_sqlite.svg",
+      "dark": "icons/newui/folder_sqlite_dark.svg"
+    },
+    "dir_flyway_oracle": {
+      "light": "icons/newui/folder_oracle.svg",
+      "dark": "icons/newui/folder_oracle_dark.svg"
+    },
+    "dir_flyway_sqlserver": {
+      "light": "icons/newui/folder_sqlserver.svg",
+      "dark": "icons/newui/folder_sqlserver_dark.svg"
+    },
+    "dir_flyway_mssql": {
+      "light": "icons/newui/folder_sqlserver.svg",
+      "dark": "icons/newui/folder_sqlserver_dark.svg"
+    },
+    "dir_liquibase": {
+      "light": "icons/folder_liquibase.svg"
+    },
+    "dir_liquibase_db2": {
+      "light": "icons/newui/folder_db2.svg",
+      "dark": "icons/newui/folder_db2_dark.svg"
+    },
+    "dir_liquibase_h2": {
+      "light": "icons/newui/folder_h2.svg",
+      "dark": "icons/newui/folder_h2_dark.svg"
+    },
+    "dir_liquibase_hsqldb": {
+      "light": "icons/newui/folder_hsqldb.svg",
+      "dark": "icons/newui/folder_hsqldb_dark.svg"
+    },
+    "dir_liquibase_mariadb": {
+      "light": "icons/newui/folder_mariadb.svg",
+      "dark": "icons/newui/folder_mariadb_dark.svg"
+    },
+    "dir_liquibase_mysql": {
+      "light": "icons/newui/folder_mysql.svg",
+      "dark": "icons/newui/folder_mysql_dark.svg"
+    },
+    "dir_liquibase_postgresql": {
+      "light": "icons/newui/folder_postgresql.svg",
+      "dark": "icons/newui/folder_postgresql_dark.svg"
+    },
+    "dir_liquibase_sqlite": {
+      "light": "icons/newui/folder_sqlite.svg",
+      "dark": "icons/newui/folder_sqlite_dark.svg"
+    },
+    "dir_liquibase_oracle": {
+      "light": "icons/newui/folder_oracle.svg",
+      "dark": "icons/newui/folder_oracle_dark.svg"
+    },
+    "dir_liquibase_sqlserver": {
+      "light": "icons/newui/folder_sqlserver.svg",
+      "dark": "icons/newui/folder_sqlserver_dark.svg"
+    },
+    "dir_liquibase_mssql": {
+      "light": "icons/newui/folder_sqlserver.svg",
+      "dark": "icons/newui/folder_sqlserver_dark.svg"
+    },
+    "kustomize": {
+      "light": "icons/kustomize.svg"
+    },
+    "angular_json": {
+      "light": "icons/angular2.svg"
+    },
+    "elixir": {
+      "light": "icons/elixir.svg"
+    },
+    "nestjs": {
+      "light": "icons/nestjs.svg"
+    },
+    "nestjs_adapter": {
+      "light": "icons/nestjs_adapter.svg"
+    },
+    "nestjs_controller": {
+      "light": "icons/nestjs_controller.svg"
+    },
+    "nestjs_controller_test": {
+      "light": "icons/nestjs_controller_test.svg"
+    },
+    "nestjs_decorator": {
+      "light": "icons/nestjs_decorator.svg"
+    },
+    "nestjs_dto": {
+      "light": "icons/nestjs_dto.svg"
+    },
+    "nestjs_entity": {
+      "light": "icons/nestjs_entity.svg"
+    },
+    "nestjs_filter": {
+      "light": "icons/nestjs_filter.svg"
+    },
+    "nestjs_gateway": {
+      "light": "icons/nestjs_gateway.svg"
+    },
+    "nestjs_guard": {
+      "light": "icons/nestjs_guard.svg"
+    },
+    "nestjs_interceptor": {
+      "light": "icons/nestjs_interceptor.svg"
+    },
+    "nestjs_middleware": {
+      "light": "icons/nestjs_middleware.svg"
+    },
+    "nestjs_model": {
+      "light": "icons/nestjs_model.svg"
+    },
+    "nestjs_module": {
+      "light": "icons/nestjs_module.svg"
+    },
+    "nestjs_pipe": {
+      "light": "icons/nestjs_pipe.svg"
+    },
+    "nestjs_service": {
+      "light": "icons/nestjs_service.svg"
+    },
+    "nestjs_service_test": {
+      "light": "icons/nestjs_service_test.svg"
+    },
+    "babel": {
+      "light": "icons/babel.svg",
+      "dark": "icons/babel_dark.svg"
+    },
+    "cookie": {
+      "light": "icons/cookie.svg",
+      "dark": "icons/cookie_dark.svg"
+    },
+    "dotenv": {
+      "light": "icons/env.svg"
+    },
+    "eslint": {
+      "light": "icons/eslint.svg"
+    },
+    "githubactions": {
+      "light": "icons/github_action.svg",
+      "dark": "icons/github_action_dark.svg"
+    },
+    "tsconfig": {
+      "light": "icons/tsconfig.svg"
+    },
+    "jsconfig": {
+      "light": "icons/jsconfig.svg"
+    },
+    "typescript-def": {
+      "light": "icons/typescript-def.svg"
+    },
+    "post-css": {
+      "light": "icons/postcss.svg"
+    },
+    "post-css-config": {
+      "light": "icons/postcss.svg"
+    },
+    "sequelize": {
+      "light": "icons/sequelize.svg"
+    },
+    "svelte": {
+      "light": "icons/svelte.svg"
+    },
+    "tailwindcss": {
+      "light": "icons/tailwindcss.svg"
+    },
+    "test-typescript": {
+      "light": "icons/test-ts.svg"
+    },
+    "test-javascript": {
+      "light": "icons/test-javascript.svg"
+    },
+    "flyway": {
+      "light": "icons/flyway.svg",
+      "dark": "icons/flyway_dark.svg"
+    },
+    "liquibase": {
+      "light": "icons/liquibase.svg",
+      "dark": "icons/liquibase_dark.svg"
+    },
+    "mockk": {
+      "light": "icons/mockk.svg"
+    },
+    "storybook": {
+      "light": "icons/storybook.svg"
+    },
+    "dependabot_config": {
+      "light": "icons/dependabot.svg"
+    },
+    "dependabot_github": {
+      "light": "icons/dependabot.svg"
+    },
+    "dependabot_gitlab": {
+      "light": "icons/dependabot.svg"
+    },
+    "golwroot": {
+      "light": "icons/glowroot.svg"
+    },
+    "jgitver": {
+      "light": "icons/jgitver.svg",
+      "dark": "icons/jgitver_dark.svg"
+    },
+    "mergify1": {
+      "light": "icons/mergify.svg"
+    },
+    "mergify2": {
+      "light": "icons/mergify.svg"
+    },
+    "mergify3": {
+      "light": "icons/mergify.svg"
+    },
+    "nuget": {
+      "light": "icons/nuget.svg",
+      "dark": "icons/nuget_dark.svg"
+    },
+    "onap_cba_blueprint": {
+      "light": "icons/newui/onap-cba-blueprint.svg",
+      "dark": "icons/newui/onap-cba-blueprint_dark.svg"
+    },
+    "onap_cba_definitions": {
+      "light": "icons/newui/onap-cba-definitions.svg",
+      "dark": "icons/newui/onap-cba-definitions_dark.svg"
+    },
+    "onap_cba_tosca": {
+      "light": "icons/onap-cba-tosca.svg",
+      "dark": "icons/onap-cba-tosca_dark.svg"
+    },
+    "semaphoreci": {
+      "light": "icons/semaphoreci.svg"
+    },
+    "vscode_settings": {
+      "light": "icons/vscode.svg"
+    },
+    "vcskeep": {
+      "light": "icons/keep.svg"
+    },
+    "htaccess": {
+      "light": "icons/htaccess.svg"
+    },
+    "android_manifest": {
+      "light": "icons/android.svg"
+    },
+    "appveyor": {
+      "light": "icons/appveyor.svg"
+    },
+    "allcontributors": {
+      "light": "icons/allcontributors.svg",
+      "dark": "icons/allcontributors_dark.svg"
+    },
+    "archunit": {
+      "light": "icons/archunit.svg"
+    },
+    "author": {
+      "light": "icons/authors.svg"
+    },
+    "bamboo": {
+      "light": "icons/bamboo.svg"
+    },
+    "caddyfile": {
+      "light": "icons/caddy.svg"
+    },
+    "cargo": {
+      "light": "icons/cargo.svg"
+    },
+    "commitlint": {
+      "light": "icons/commitlint.svg"
+    },
+    "coveralls": {
+      "light": "icons/coveralls.svg"
+    },
+    "gradle_main": {
+      "light": "icons/gradle.svg",
+      "dark": "icons/gradle_dark.svg"
+    },
+    "gradle_kotlin": {
+      "light": "icons/gradle_kotlin_colored.svg",
+      "dark": "icons/gradle_kotlin_colored_dark.svg"
+    },
+    "gradle": {
+      "light": "icons/gradlew.svg",
+      "dark": "icons/gradlew_dark.svg"
+    },
+    "gradlew": {
+      "light": "icons/gradlew.svg",
+      "dark": "icons/gradlew_dark.svg"
+    },
+    "gradle_wrapper": {
+      "light": "icons/gradle.svg",
+      "dark": "icons/gradle_dark.svg"
+    },
+    "gradle_lock": {
+      "light": "icons/gradle_lock.svg",
+      "dark": "icons/gradle_lock_dark.svg"
+    },
+    "gradle_buildscriptlock": {
+      "light": "icons/gradle_lock.svg",
+      "dark": "icons/gradle_lock_dark.svg"
+    },
+    "mvnw_linux": {
+      "light": "icons/mvnw.svg",
+      "dark": "icons/mvnw_dark.svg"
+    },
+    "berksfile": {
+      "light": "icons/berkshelf.svg"
+    },
+    "berksfilelock": {
+      "light": "icons/berkshelflock.svg"
+    },
+    "bitbucket": {
+      "light": "icons/bitbucket.svg"
+    },
+    "bower": {
+      "light": "icons/bower.svg"
+    },
+    "browserslist": {
+      "light": "icons/browserslist.svg",
+      "dark": "icons/browserslist_dark.svg"
+    },
+    "build": {
+      "light": "icons/build.svg"
+    },
+    "cache2k": {
+      "light": "icons/cache2k.svg"
+    },
+    "cassandra": {
+      "light": "icons/cassandra.svg",
+      "dark": "icons/cassandra_dark.svg"
+    },
+    "cassandra1": {
+      "light": "icons/cassandra.svg",
+      "dark": "icons/cassandra_dark.svg"
+    },
+    "changelog": {
+      "light": "icons/changelog.svg",
+      "dark": "icons/changelog_dark.svg"
+    },
+    "circle": {
+      "light": "icons/circleci.svg",
+      "dark": "icons/circleci_dark.svg"
+    },
+    "circle1": {
+      "light": "icons/circleci.svg",
+      "dark": "icons/circleci_dark.svg"
+    },
+    "cirrus": {
+      "light": "icons/cirrus.svg",
+      "dark": "icons/cirrus_dark.svg"
+    },
+    "composer": {
+      "light": "icons/composer.svg"
+    },
+    "cypress": {
+      "light": "icons/cypress.svg"
+    },
+    "mvnw_windows": {
+      "light": "icons/mvnw.svg",
+      "dark": "icons/mvnw_dark.svg"
+    },
+    "codecov": {
+      "light": "icons/codecov.svg"
+    },
+    "codefresh": {
+      "light": "icons/codefresh.svg",
+      "dark": "icons/codefresh_dark.svg"
+    },
+    "codacy": {
+      "light": "icons/codacy.svg",
+      "dark": "icons/codacy_dark.svg"
+    },
+    "codeception": {
+      "light": "icons/codeception.svg",
+      "dark": "icons/codeception_dark.svg"
+    },
+    "codeship": {
+      "light": "icons/codeship.svg",
+      "dark": "icons/codeship_dark.svg"
+    },
+    "contact": {
+      "light": "icons/contact.svg"
+    },
+    "contribute": {
+      "light": "icons/contributing.svg"
+    },
+    "coveragerc": {
+      "light": "icons/coveragerc.svg"
+    },
+    "crowdin": {
+      "light": "icons/crowdin.svg"
+    },
+    "deno": {
+      "light": "icons/deno.svg"
+    },
+    "deptective": {
+      "light": "icons/deptective.svg"
+    },
+    "docker": {
+      "light": "icons/docker_alt.svg"
+    },
+    "dockercompose": {
+      "light": "icons/dockercompose_alt.svg"
+    },
+    "docker1": {
+      "light": "icons/docker_alt.svg"
+    },
+    "dockercompose1": {
+      "light": "icons/dockercompose_alt.svg"
+    },
+    "dockerignore": {
+      "light": "icons/dockerignore_alt2.svg",
+      "dark": "icons/dockerignore_alt2_dark.svg"
+    },
+    "editorconfig": {
+      "light": "icons/editorconfig.svg"
+    },
+    "elastic": {
+      "light": "icons/elasticsearch.svg",
+      "dark": "icons/elasticsearch_dark.svg"
+    },
+    "elastic1": {
+      "light": "icons/elasticsearch.svg",
+      "dark": "icons/elasticsearch_dark.svg"
+    },
+    "expo_eas": {
+      "light": "icons/expo.svg",
+      "dark": "icons/expo_dark.svg"
+    },
+    "cerebro": {
+      "light": "icons/elastic-cerebro.svg",
+      "dark": "icons/elastic-cerebro_dark.svg"
+    },
+    "cerebro1": {
+      "light": "icons/elastic-cerebro.svg",
+      "dark": "icons/elastic-cerebro_dark.svg"
+    },
+    "detekt": {
+      "light": "icons/detekt.svg"
+    },
+    "faq": {
+      "light": "icons/faq.svg"
+    },
+    "help": {
+      "light": "icons/faq.svg"
+    },
+    "intellijcodestyle": {
+      "light": "icons/jetbrains.svg"
+    },
+    "mailmap": {
+      "light": "icons/email.svg"
+    },
+    "msazure": {
+      "light": "icons/msazure.svg"
+    },
+    "msazure1": {
+      "light": "icons/msazure.svg"
+    },
+    "gatling": {
+      "light": "icons/gatling.svg"
+    },
+    "gatling1": {
+      "light": "icons/gatling.svg"
+    },
+    "gitpod": {
+      "light": "icons/gitpod.svg"
+    },
+    "golangarchlinter": {
+      "light": "icons/golangarchlinter.svg"
+    },
+    "goreleaser": {
+      "light": "icons/goreleaser.svg"
+    },
+    "grunt": {
+      "light": "icons/grunt.svg"
+    },
+    "git": {
+      "light": "icons/git.svg"
+    },
+    "gitblameignorerevs": {
+      "light": "icons/git.svg"
+    },
+    "gitlab": {
+      "light": "icons/gitlab.svg"
+    },
+    "grafana": {
+      "light": "icons/grafana.svg"
+    },
+    "graphqlconfig": {
+      "light": "icons/graphql_config.svg",
+      "dark": "icons/graphql_config_dark.svg"
+    },
+    "graphqlschema": {
+      "light": "icons/graphql_schema.svg",
+      "dark": "icons/graphql_schema_dark.svg"
+    },
+    "gocd": {
+      "light": "icons/gocd.svg",
+      "dark": "icons/gocd_dark.svg"
+    },
+    "gomod": {
+      "light": "icons/gomod.svg"
+    },
+    "hadolint": {
+      "light": "icons/hadolint.svg",
+      "dark": "icons/hadolint_dark.svg"
+    },
+    "hibernate": {
+      "light": "icons/hibernate.svg"
+    },
+    "java": {
+      "light": "icons/java.svg"
+    },
+    "imgbot": {
+      "light": "icons/imgbot.svg",
+      "dark": "icons/imgbot_dark.svg"
+    },
+    "jenkins": {
+      "light": "icons/jenkins.svg"
+    },
+    "jenkins1": {
+      "light": "icons/jenkins.svg"
+    },
+    "jenkins2": {
+      "light": "icons/jenkins.svg"
+    },
+    "jenkins3": {
+      "light": "icons/jenkins.svg"
+    },
+    "jest_js": {
+      "light": "icons/jest.svg",
+      "dark": "icons/jest_dark.svg"
+    },
+    "jest_ts": {
+      "light": "icons/jest.svg",
+      "dark": "icons/jest_dark.svg"
+    },
+    "jitpack": {
+      "light": "icons/jitpack.svg",
+      "dark": "icons/jitpack_dark.svg"
+    },
+    "jsbeautify": {
+      "light": "icons/jsbeautify.svg"
+    },
+    "jshint": {
+      "light": "icons/jshint.svg",
+      "dark": "icons/jshint_dark.svg"
+    },
+    "junit": {
+      "light": "icons/junit5_transparent.svg"
+    },
+    "just": {
+      "light": "icons/just.svg",
+      "dark": "icons/just_dark.svg"
+    },
+    "karate": {
+      "light": "icons/karate.svg",
+      "dark": "icons/karate_dark.svg"
+    },
+    "karma_js": {
+      "light": "icons/karma.svg"
+    },
+    "karma_ts": {
+      "light": "icons/karma.svg"
+    },
+    "kibana": {
+      "light": "icons/kibana.svg"
+    },
+    "kibana1": {
+      "light": "icons/kibana.svg"
+    },
+    "knownissues": {
+      "light": "icons/bug.svg"
+    },
+    "kubernetes": {
+      "light": "icons/kubernetes.svg",
+      "dark": "icons/kubernetes_dark.svg"
+    },
+    "kubernetes1": {
+      "light": "icons/kubernetes.svg",
+      "dark": "icons/kubernetes_dark.svg"
+    },
+    "lerna": {
+      "light": "icons/lerna.svg",
+      "dark": "icons/lerna_dark.svg"
+    },
+    "lgtm": {
+      "light": "icons/lgtm.svg"
+    },
+    "license": {
+      "light": "icons/license.svg",
+      "dark": "icons/license_dark.svg"
+    },
+    "lighttpd": {
+      "light": "icons/lighttpd.svg"
+    },
+    "log4j": {
+      "light": "icons/log4j.svg",
+      "dark": "icons/log4j_dark.svg"
+    },
+    "logback": {
+      "light": "icons/logback.svg",
+      "dark": "icons/logback_dark.svg"
+    },
+    "logback1": {
+      "light": "icons/logback.svg",
+      "dark": "icons/logback_dark.svg"
+    },
+    "logstash": {
+      "light": "icons/logstash.svg"
+    },
+    "logstash1": {
+      "light": "icons/logstash.svg"
+    },
+    "logstash2": {
+      "light": "icons/logstash.svg"
+    },
+    "lombok": {
+      "light": "icons/lombok.svg"
+    },
+    "maven_shade_plugin": {
+      "light": "icons/generated_pom.svg"
+    },
+    "metro": {
+      "light": "icons/metro.svg"
+    },
+    "mkdocs": {
+      "light": "icons/mkdocs.svg",
+      "dark": "icons/mkdocs_dark.svg"
+    },
+    "moduleinfojava": {
+      "light": "icons/moduleinfo.svg",
+      "dark": "icons/moduleinfo_dark.svg"
+    },
+    "mongodb": {
+      "light": "icons/mongodb.svg"
+    },
+    "muse": {
+      "light": "icons/muse.svg"
+    },
+    "mysql": {
+      "light": "icons/my.svg"
+    },
+    "netlify": {
+      "light": "icons/netlify.svg"
+    },
+    "nginx": {
+      "light": "icons/nginx.svg"
+    },
+    "nginx1": {
+      "light": "icons/nginx.svg"
+    },
+    "npmrc": {
+      "light": "icons/npm.svg"
+    },
+    "npmignore": {
+      "light": "icons/npmignore.svg",
+      "dark": "icons/npmignore_dark.svg"
+    },
+    "notice": {
+      "light": "icons/notice.svg",
+      "dark": "icons/notice_dark.svg"
+    },
+    "nox": {
+      "light": "icons/nox.svg"
+    },
+    "nx": {
+      "light": "icons/nx.svg"
+    },
+    "openissues": {
+      "light": "icons/bug.svg"
+    },
+    "packageinfojava": {
+      "light": "icons/packageinfojava.svg",
+      "dark": "icons/packageinfojava_dark.svg"
+    },
+    "packagejson": {
+      "light": "icons/npm.svg"
+    },
+    "packagejsonlock": {
+      "light": "icons/packagejsonlock.svg"
+    },
+    "poetry-poetry-lock": {
+      "light": "icons/poetry_lock.svg",
+      "dark": "icons/poetry_lock_dark.svg"
+    },
+    "poetry-poetry-toml": {
+      "light": "icons/poetry.svg"
+    },
+    "pdd": {
+      "light": "icons/pdd.svg",
+      "dark": "icons/pdd_dark.svg"
+    },
+    "pdd_yml": {
+      "light": "icons/pdd.svg",
+      "dark": "icons/pdd_dark.svg"
+    },
+    "pnpmlock": {
+      "light": "icons/pnpm.svg"
+    },
+    "prettier": {
+      "light": "icons/prettier.svg",
+      "dark": "icons/prettier_dark.svg"
+    },
+    "prettier-yml": {
+      "light": "icons/prettier.svg",
+      "dark": "icons/prettier_dark.svg"
+    },
+    "prettier-json": {
+      "light": "icons/prettier.svg",
+      "dark": "icons/prettier_dark.svg"
+    },
+    "prettier-js": {
+      "light": "icons/prettier.svg",
+      "dark": "icons/prettier_dark.svg"
+    },
+    "prettier-cjs": {
+      "light": "icons/prettier.svg",
+      "dark": "icons/prettier_dark.svg"
+    },
+    "prettier-toml": {
+      "light": "icons/prettier.svg",
+      "dark": "icons/prettier_dark.svg"
+    },
+    "prettier-config-mjs": {
+      "light": "icons/prettier.svg",
+      "dark": "icons/prettier_dark.svg"
+    },
+    "prettirrc-mjs": {
+      "light": "icons/prettier.svg",
+      "dark": "icons/prettier_dark.svg"
+    },
+    "prettierignore": {
+      "light": "icons/prettierignore.svg",
+      "dark": "icons/prettierignore_dark.svg"
+    },
+    "privacy": {
+      "light": "icons/privacy.svg"
+    },
+    "proguard": {
+      "light": "icons/proguard.svg",
+      "dark": "icons/proguard_dark.svg"
+    },
+    "prometheus": {
+      "light": "icons/prometheus.svg"
+    },
+    "puppet": {
+      "light": "icons/puppet.svg"
+    },
+    "puppet1": {
+      "light": "icons/puppet.svg"
+    },
+    "pytest": {
+      "light": "icons/pytest.svg"
+    },
+    "qodana": {
+      "light": "icons/qodana.svg"
+    },
+    "readme": {
+      "light": "icons/readme.svg",
+      "dark": "icons/readme_dark.svg"
+    },
+    "redis": {
+      "light": "icons/redis.svg"
+    },
+    "redis1": {
+      "light": "icons/redis.svg"
+    },
+    "rego": {
+      "light": "icons/rego.svg"
+    },
+    "renovate": {
+      "light": "icons/renovate.svg"
+    },
+    "restyled": {
+      "light": "icons/restyled.svg",
+      "dark": "icons/restyled_dark.svg"
+    },
+    "roadmap": {
+      "light": "icons/roadmap.svg",
+      "dark": "icons/roadmap_dark.svg"
+    },
+    "rollup": {
+      "light": "icons/rollup.svg"
+    },
+    "rultor": {
+      "light": "icons/rultor.svg",
+      "dark": "icons/rultor_dark.svg"
+    },
+    "scalingo": {
+      "light": "icons/scalingo.svg",
+      "dark": "icons/scalingo_dark.svg"
+    },
+    "security": {
+      "light": "icons/security.svg"
+    },
+    "snapcraft": {
+      "light": "icons/snap.svg"
+    },
+    "screwdriver": {
+      "light": "icons/screwdriver.svg"
+    },
+    "stacksmith": {
+      "light": "icons/bitnami.svg",
+      "dark": "icons/bitnami_dark.svg"
+    },
+    "sonar": {
+      "light": "icons/sonar.svg",
+      "dark": "icons/sonar_dark.svg"
+    },
+    "svgo": {
+      "light": "icons/svgo.svg"
+    },
+    "svgo2": {
+      "light": "icons/svgo.svg"
+    },
+    "swaggerconfig": {
+      "light": "icons/swagger.svg"
+    },
+    "swaggerignore": {
+      "light": "icons/swaggerignore.svg",
+      "dark": "icons/swaggerignore_dark.svg"
+    },
+    "tinylogproperties": {
+      "light": "icons/tinylog_properties.svg"
+    },
+    "testing": {
+      "light": "icons/testing.svg",
+      "dark": "icons/testing_dark.svg"
+    },
+    "todo": {
+      "light": "icons/todo.svg",
+      "dark": "icons/todo_dark.svg"
+    },
+    "tox": {
+      "light": "icons/tox.svg"
+    },
+    "travis": {
+      "light": "icons/travis.svg"
+    },
+    "vagrant": {
+      "light": "icons/vagrant.svg"
+    },
+    "version": {
+      "light": "icons/version.svg",
+      "dark": "icons/version_dark.svg"
+    },
+    "version_json": {
+      "light": "icons/version.svg",
+      "dark": "icons/version_dark.svg"
+    },
+    "version_properties": {
+      "light": "icons/version.svg",
+      "dark": "icons/version_dark.svg"
+    },
+    "version_yml": {
+      "light": "icons/version.svg",
+      "dark": "icons/version_dark.svg"
+    },
+    "version_xml": {
+      "light": "icons/version.svg",
+      "dark": "icons/version_dark.svg"
+    },
+    "vite": {
+      "light": "icons/vite.svg"
+    },
+    "vitest": {
+      "light": "icons/vitest.svg",
+      "dark": "icons/vitest_dark.svg"
+    },
+    "weblate": {
+      "light": "icons/weblate.svg"
+    },
+    "webpack": {
+      "light": "icons/webpack.svg"
+    },
+    "werf": {
+      "light": "icons/werf.svg",
+      "dark": "icons/werf_dark.svg"
+    },
+    "writerside": {
+      "light": "icons/writerside_cfg.svg"
+    },
+    "zalando": {
+      "light": "icons/zalando.svg",
+      "dark": "icons/zalando_dark.svg"
+    },
+    "ext_aac": {
+      "light": "icons/aac.svg",
+      "dark": "icons/aac_dark.svg"
+    },
+    "ext_archive": {
+      "light": "icons/newui/archive.svg",
+      "dark": "icons/newui/archive_dark.svg"
+    },
+    "ext_archive_7z": {
+      "light": "icons/newui/archive.svg",
+      "dark": "icons/newui/archive_dark.svg"
+    },
+    "ext_adoc": {
+      "light": "icons/asciidoc.svg"
+    },
+    "ext_monkeys-audio": {
+      "light": "icons/monkey's_audio.svg"
+    },
+    "ext_apk": {
+      "light": "icons/apk.svg"
+    },
+    "ext_apple-audio": {
+      "light": "icons/apple.svg"
+    },
+    "ext_apple-video": {
+      "light": "icons/apple.svg"
+    },
+    "ext_avro_avsc": {
+      "light": "icons/newui/avro.svg",
+      "dark": "icons/newui/avro_dark.svg"
+    },
+    "bicep": {
+      "light": "icons/bicep.svg"
+    },
+    "ext_bin": {
+      "light": "icons/binary.svg"
+    },
+    "ext_back": {
+      "light": "icons/backup.svg"
+    },
+    "ext_sh": {
+      "light": "icons/bash.svg",
+      "dark": "icons/bash_dark.svg"
+    },
+    "ext_c": {
+      "light": "icons/newui/c.svg",
+      "dark": "icons/newui/c_dark.svg"
+    },
+    "ext_cc": {
+      "light": "icons/newui/cpp.svg",
+      "dark": "icons/newui/cpp_dark.svg"
+    },
+    "ext_cpp": {
+      "light": "icons/newui/cpp.svg",
+      "dark": "icons/newui/cpp_dark.svg"
+    },
+    "ext_h": {
+      "light": "icons/newui/h.svg",
+      "dark": "icons/newui/h_dark.svg"
+    },
+    "ext_hpp": {
+      "light": "icons/newui/h.svg",
+      "dark": "icons/newui/h_dark.svg"
+    },
+    "ext_cert": {
+      "light": "icons/certificate.svg"
+    },
+    "ext_cmd": {
+      "light": "icons/cmd.svg",
+      "dark": "icons/cmd_dark.svg"
+    },
+    "ext_csv": {
+      "light": "icons/officedocs/msexcel-papirus.svg"
+    },
+    "ext_dar": {
+      "light": "icons/jar.svg",
+      "dark": "icons/jar_dark.svg"
+    },
+    "ext_deb": {
+      "light": "icons/deb.svg",
+      "dark": "icons/deb_dark.svg"
+    },
+    "ext_dll": {
+      "light": "icons/binary.svg"
+    },
+    "ext_drawio": {
+      "light": "icons/drawio.svg"
+    },
+    "ext_epub": {
+      "light": "icons/epub.svg"
+    },
+    "ext_exe": {
+      "light": "icons/msexe.svg"
+    },
+    "ext_form": {
+      "light": "icons/form.svg",
+      "dark": "icons/form_dark.svg"
+    },
+    "ext_graphqls": {
+      "light": "icons/graphql.svg",
+      "dark": "icons/graphql_dark.svg"
+    },
+    "ext_haxe": {
+      "light": "icons/haxe.svg"
+    },
+    "ext_haxexml": {
+      "light": "icons/haxehxml.svg"
+    },
+    "ext_http": {
+      "light": "icons/http_alt.svg"
+    },
+    "ext_iml": {
+      "light": "icons/jetbrains.svg"
+    },
+    "ext_jfr": {
+      "light": "icons/jfr.svg",
+      "dark": "icons/jfr_dark.svg"
+    },
+    "ext_jinja": {
+      "light": "icons/jinja.svg",
+      "dark": "icons/jinja_dark.svg"
+    },
+    "ext_cfg_ini": {
+      "light": "icons/newui/config.svg",
+      "dark": "icons/newui/config_dark.svg"
+    },
+    "ext_cfg_cfg": {
+      "light": "icons/newui/config.svg",
+      "dark": "icons/newui/config_dark.svg"
+    },
+    "ext_cfg_conf": {
+      "light": "icons/newui/config.svg",
+      "dark": "icons/newui/config_dark.svg"
+    },
+    "ext_cfg_config": {
+      "light": "icons/newui/config.svg",
+      "dark": "icons/newui/config_dark.svg"
+    },
+    "ext_jar": {
+      "light": "icons/jar.svg",
+      "dark": "icons/jar_dark.svg"
+    },
+    "ext_jaroriginal": {
+      "light": "icons/jar.svg",
+      "dark": "icons/jar_dark.svg"
+    },
+    "ext_jsmap": {
+      "light": "icons/javascript-map.svg",
+      "dark": "icons/javascript-map_dark.svg"
+    },
+    "ext_cssmap": {
+      "light": "icons/css-map.svg"
+    },
+    "ext_css": {
+      "light": "icons/css.svg"
+    },
+    "ext_js": {
+      "light": "icons/javascript.svg",
+      "dark": "icons/javascript_dark.svg"
+    },
+    "ext_js_react": {
+      "light": "icons/jsx.svg"
+    },
+    "ext_kdbx": {
+      "light": "icons/keepass.svg",
+      "dark": "icons/keepass_dark.svg"
+    },
+    "ext_matroska": {
+      "light": "icons/matroska.svg",
+      "dark": "icons/matroska_dark.svg"
+    },
+    "ext_md": {
+      "light": "icons/markdown.svg"
+    },
+    "ext_mdx": {
+      "light": "icons/mdx.svg",
+      "dark": "icons/mdx_dark.svg"
+    },
+    "ext_mmd": {
+      "light": "icons/mindmap.svg"
+    },
+    "ext_mermaid": {
+      "light": "icons/mermaid.svg"
+    },
+    "ext_mermaid_mmd": {
+      "light": "icons/mermaid.svg"
+    },
+    "ext_mpeg": {
+      "light": "icons/mpeg.svg",
+      "dark": "icons/mpeg_dark.svg"
+    },
+    "ext_mwb": {
+      "light": "icons/mysqlworkbench.svg"
+    },
+    "ext_nsi": {
+      "light": "icons/nsis.svg",
+      "dark": "icons/nsis_dark.svg"
+    },
+    "ext_opentofu_tf": {
+      "light": "icons/opentofu.svg"
+    },
+    "ext_opentofu_tf_json": {
+      "light": "icons/opentofu.svg"
+    },
+    "ext_pdf": {
+      "light": "icons/pdf.svg",
+      "dark": "icons/pdf_dark.svg"
+    },
+    "ext_pid": {
+      "light": "icons/pid.svg",
+      "dark": "icons/pid_dark.svg"
+    },
+    "ext_postmanconfig": {
+      "light": "icons/postman.svg"
+    },
+    "ext_puml": {
+      "light": "icons/uml.svg",
+      "dark": "icons/uml_dark.svg"
+    },
+    "ext_postmancollection": {
+      "light": "icons/postman_col.svg"
+    },
+    "ext_postmanenvironment": {
+      "light": "icons/postman_env.svg"
+    },
+    "ext_rpm": {
+      "light": "icons/rpm.svg"
+    },
+    "ext_robotframework": {
+      "light": "icons/robotframework.svg"
+    },
+    "sass": {
+      "light": "icons/sass.svg"
+    },
+    "scss": {
+      "light": "icons/scss.svg"
+    },
+    "less": {
+      "light": "icons/less.svg",
+      "dark": "icons/less_dark.svg"
+    },
+    "ext_stylus-browserext": {
+      "light": "icons/stylus-browserext.svg"
+    },
+    "ext_svg": {
+      "light": "icons/svg.svg",
+      "dark": "icons/svg_dark.svg"
+    },
+    "ext_tf": {
+      "light": "icons/terraform.svg",
+      "dark": "icons/terraform_dark.svg"
+    },
+    "ext_toml": {
+      "light": "icons/toml.svg",
+      "dark": "icons/toml_dark.svg"
+    },
+    "typescript": {
+      "light": "icons/test-ts.svg"
+    },
+    "typescript-ts": {
+      "light": "icons/typescript.svg",
+      "dark": "icons/typescript_dark.svg"
+    },
+    "typescript-react": {
+      "light": "icons/tsx.svg"
+    },
+    "ext_video": {
+      "light": "icons/video.svg"
+    },
+    "ext_velocity": {
+      "light": "icons/velocity.svg"
+    },
+    "ext_vscode-workspace": {
+      "light": "icons/vscode.svg"
+    },
+    "ext_war": {
+      "light": "icons/tomcat.svg"
+    },
+    "ext_wheel": {
+      "light": "icons/wheel.svg"
+    },
+    "ext_wma": {
+      "light": "icons/wma.svg",
+      "dark": "icons/wma_dark.svg"
+    },
+    "ext_xiph": {
+      "light": "icons/xiph.svg"
+    },
+    "ext_yang": {
+      "light": "icons/yang.svg"
+    },
+    "ext_libreoffice_calc": {
+      "light": "icons/officedocs/libo-calc.svg"
+    },
+    "ext_libreoffice_draw": {
+      "light": "icons/officedocs/libo-draw.svg"
+    },
+    "ext_libreoffice_impress": {
+      "light": "icons/officedocs/libo-impress.svg"
+    },
+    "ext_libreoffice_math": {
+      "light": "icons/officedocs/libo-math.svg"
+    },
+    "ext_libreoffice_writer": {
+      "light": "icons/officedocs/libo-writer.svg"
+    },
+    "ext_msoffice_excel": {
+      "light": "icons/officedocs/msexcel-2019.svg"
+    },
+    "ext_msoffice_onenote": {
+      "light": "icons/officedocs/msonenote-2019.svg"
+    },
+    "ext_msoffice_powerpoint": {
+      "light": "icons/officedocs/mspowerpoint-2019.svg"
+    },
+    "ext_msoffice_project": {
+      "light": "icons/officedocs/msproject-2019.svg"
+    },
+    "ext_msoffice_visio": {
+      "light": "icons/officedocs/msvisio-2019.svg"
+    },
+    "ext_msoffice_word": {
+      "light": "icons/officedocs/msword-2019.svg"
+    },
+    "docker_generic": {
+      "light": "icons/docker_alt.svg"
+    },
+    "docker_generic_2": {
+      "light": "icons/docker_alt.svg"
+    }
+  },
+  "fileNames": {},
+  "fileExtensions": {},
+  "patterns": [
+    {
+      "pattern": "^(\\.circleci)$",
+      "icon": "dir_circleci",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.dependabot)$",
+      "icon": "dir_dependabot",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(docker)$",
+      "icon": "dir_docker",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.fleet)$",
+      "icon": "dir_fleet",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.github)$",
+      "icon": "dir_github",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.gitlab)$",
+      "icon": "dir_gitlab",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.idea)$",
+      "icon": "dir_idea",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.idea\\-sandbox|idea\\-sandbox)$",
+      "icon": "dir_ideasandbox",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.run)$",
+      "icon": "dir_idearun",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.jpb)$",
+      "icon": "dir_jpabuddy",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.mergify)$",
+      "icon": "dir_mergify",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.mps)$",
+      "icon": "dir_mps",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.mvn)$",
+      "icon": "dir_mvn",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(node_modules)$",
+      "icon": "dir_node_modules",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.nuget)$",
+      "icon": "dir_nuget",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.pytest_cache)$",
+      "icon": "dir_pytest_cache",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.venv)$",
+      "icon": "dir_python_venv",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(venv)$",
+      "icon": "dir_python_venv_nodot",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.egg\\-info)$",
+      "icon": "dir_python_egginfo",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.tox)$",
+      "icon": "dir_python_dottox",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.teamcity)$",
+      "icon": "dir_teamcity",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.vscode)$",
+      "icon": "dir_vscode_settings",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.semaphore)$",
+      "icon": "dir_semaphoreci",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.expo)$",
+      "icon": "dir_expo",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.storybook)$",
+      "icon": "dir_storybook",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": false
+    },
+    {
+      "pattern": "(^|/)(db/migration/?)$",
+      "icon": "dir_flyway",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/db2[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_db2",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/h2[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_h2",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/hsqldb[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_hsqldb",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/maria[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_mariadb",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/mysql[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_mysql",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/postgre[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_postgresql",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/sqlite[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_sqlite",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/oracle[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_oracle",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/sqlserver[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_sqlserver",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/mssql[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_flyway_mssql",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/?)$",
+      "icon": "dir_liquibase",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/db2[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_db2",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/h2[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_h2",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/hsqldb[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_hsqldb",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/maria[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_mariadb",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/mysql[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_mysql",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/postgre[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_postgresql",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/sqlite[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_sqlite",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/oracle[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_oracle",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/sqlserver[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_sqlserver",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/mssql[a-zA-Z\\d._\\-]*)$",
+      "icon": "dir_liquibase_mssql",
+      "ignoreCase": true,
+      "target": "folder",
+      "path": true
+    },
+    {
+      "pattern": "^(kustomization\\.yaml)$",
+      "icon": "kustomize",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(angular\\.json)$",
+      "icon": "angular_json",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.ex|\\.exs|mix\\.lock)$",
+      "icon": "elixir",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.nest\\-cli\\.json|nest\\-cli\\.json|nestconfig\\.json|\\.nestconfig\\.json)$",
+      "icon": "nestjs",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]adapter\\.(js|ts))$",
+      "icon": "nestjs_adapter",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]controller\\.(js|ts))$",
+      "icon": "nestjs_controller",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]controller\\.spec\\.(js|ts))$",
+      "icon": "nestjs_controller_test",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]decorator\\.(js|ts))$",
+      "icon": "nestjs_decorator",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]dto\\.(js|ts))$",
+      "icon": "nestjs_dto",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]entity\\.(js|ts))$",
+      "icon": "nestjs_entity",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]filter\\.(js|ts))$",
+      "icon": "nestjs_filter",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]gateway\\.(js|ts))$",
+      "icon": "nestjs_gateway",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]guard\\.(js|ts))$",
+      "icon": "nestjs_guard",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]interceptor\\.(js|ts))$",
+      "icon": "nestjs_interceptor",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]middleware\\.(js|ts))$",
+      "icon": "nestjs_middleware",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]model\\.(js|ts))$",
+      "icon": "nestjs_model",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]module\\.(js|ts))$",
+      "icon": "nestjs_module",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]pipe\\.(js|ts))$",
+      "icon": "nestjs_pipe",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]service\\.(js|ts))$",
+      "icon": "nestjs_service",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*[^a-zA-Z\\d]service\\.spec\\.(js|ts))$",
+      "icon": "nestjs_service_test",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(babel\\.config\\.(?:js(?:on)?|[cm]js)|\\.babelrc(?:\\.(?:js(?:on)?|[cm]js))?)$",
+      "icon": "babel",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*cookie[a-zA-Z\\d._\\-]*\\.txt$)$",
+      "icon": "cookie",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.env[a-zA-Z\\d._\\-]*$)$",
+      "icon": "dotenv",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.eslintrc(\\.[cm]?js(on)?|\\.y(a)?ml)?$)$",
+      "icon": "eslint",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.github/workflows/.*\\.yml)$",
+      "icon": "githubactions",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.?tsconfig.*\\.(js|json)$)$",
+      "icon": "tsconfig",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.?jsconfig.*\\.(js|json)$)$",
+      "icon": "jsconfig",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.d\\.ts$)$",
+      "icon": "typescript-def",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.(pcss|postcss)$)$",
+      "icon": "post-css",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*(\\.postcssrc|postcss\\.config)(\\.[cm]?js|ts|json|ya?ml)?$)$",
+      "icon": "post-css-config",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.sequelizerc(\\.[cm]?js|\\.json)?$)$",
+      "icon": "sequelize",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.(svelte|svx))$",
+      "icon": "svelte",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.?tailwind.*\\.[cm]?[jt]s$)$",
+      "icon": "tailwindcss",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.?(test|spec)\\.(ts|tsx)$)$",
+      "icon": "test-typescript",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.?(test|spec)\\.js$)$",
+      "icon": "test-javascript",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/migration/.*\\.sql)$",
+      "icon": "flyway",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(db/changelog/.*\\.(sql|xml))$",
+      "icon": "liquibase",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(io/mockk/settings\\.properties)$",
+      "icon": "mockk",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(.*\\.stor(y|ies)\\.(js|jsx|ts|tsx|mdx)$)$",
+      "icon": "storybook",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.dependabot)/(config\\.yml)$",
+      "icon": "dependabot_config",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.github)/(dependabot)(\\.yaml|\\.yml)$",
+      "icon": "dependabot_github",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.gitlab)/(dependabot)(\\.yaml|\\.yml)$",
+      "icon": "dependabot_gitlab",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(glowroot)/(admin\\.json|config\\.json)$",
+      "icon": "golwroot",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.mvn)/(jgitver\\.config\\.xml)$",
+      "icon": "jgitver",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(\\.mergify\\.yml)$",
+      "icon": "mergify1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "(^|/)(\\.mergify)/(config\\.yml)$",
+      "icon": "mergify2",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.github)/(mergify\\.yml)$",
+      "icon": "mergify3",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.nuget)/(packages\\.config)$",
+      "icon": "nuget",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(definitions)/[^/]*(blueprint\\.json)$",
+      "icon": "onap_cba_blueprint",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(definitions)/[^/]*(artifact_types\\.json|data_types\\.json|node_types\\.json|relationship_types\\.json|resources_definition_types\\.json)$",
+      "icon": "onap_cba_definitions",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(tosca\\-metadata)/[^/]*(tosca\\.meta)$",
+      "icon": "onap_cba_tosca",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.semaphore)/(semaphore\\.yml)$",
+      "icon": "semaphoreci",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "(^|/)(\\.vscode)/(settings\\.json)$",
+      "icon": "vscode_settings",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(\\.keep|\\.gitkeep|\\.hgkeep|\\.svnkeep)$",
+      "icon": "vcskeep",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.htaccess)$",
+      "icon": "htaccess",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(androidmanifest\\.xml)$",
+      "icon": "android_manifest",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(appveyor\\.yml|\\.appveyor\\.yml)$",
+      "icon": "appveyor",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.all\\-contributorsrc)$",
+      "icon": "allcontributors",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(archunit\\.properties)$",
+      "icon": "archunit",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(author|authors)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "author",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(bamboo\\.yml)$",
+      "icon": "bamboo",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(caddyfile)$",
+      "icon": "caddyfile",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(cargo\\.toml)$",
+      "icon": "cargo",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.commitlintrc|\\.commitlintrc\\.json|\\.commitlintrc\\.yaml|\\.commitlintrc\\.yml|\\.commitlintrc\\.js|\\.commitlintrc\\.cjs|\\.commitlintrc\\.ts|commitlint\\.config\\.js|commitlint\\.config\\.cjs|commitlint\\.config\\.ts)$",
+      "icon": "commitlint",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(coveralls\\.json)$",
+      "icon": "coveralls",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(build\\.gradle|gradle\\.properties|settings\\.gradle)$",
+      "icon": "gradle_main",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(build\\.gradle\\.kts|settings\\.gradle\\.kts)$",
+      "icon": "gradle_kotlin",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(gradlew)$",
+      "icon": "gradle",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(gradlew\\.bat|gradlew\\.cmd)$",
+      "icon": "gradlew",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(gradle\\-wrapper\\.jar|gradle\\-wrapper\\.properties)$",
+      "icon": "gradle_wrapper",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(gradle\\.lockfile)$",
+      "icon": "gradle_lock",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(buildscript\\-gradle\\.lockfile)$",
+      "icon": "gradle_buildscriptlock",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(mvnw)$",
+      "icon": "mvnw_linux",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(berksfile)$",
+      "icon": "berksfile",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(berksfile\\.lock)$",
+      "icon": "berksfilelock",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(bitbucket\\-pipelines)(\\.yaml|\\.yml)$",
+      "icon": "bitbucket",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(bower\\.json|\\.bowerrc)$",
+      "icon": "bower",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(browserslist|\\.browserslistrc)$",
+      "icon": "browserslist",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(build|building)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "build",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(cache2k\\.xml)$",
+      "icon": "cache2k",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(cassandra)(\\.yaml|\\.yml)?$",
+      "icon": "cassandra",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(cassandra).*(\\.yaml|\\.yml)$",
+      "icon": "cassandra1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(changelog|changes|release\\-notes|release_notes|releasenotes)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "changelog",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(circle\\.yml)$",
+      "icon": "circle",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "(^|/)(\\.circleci)/(config\\.yml)$",
+      "icon": "circle1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(\\.cirrus\\.yml)$",
+      "icon": "cirrus",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(composer\\.json|composer\\.lock)$",
+      "icon": "composer",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(cypress\\.json)$",
+      "icon": "cypress",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(mvnw\\.bat|mvnw\\.cmd)$",
+      "icon": "mvnw_windows",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.codecov\\.yml|codecov\\.yml)$",
+      "icon": "codecov",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(codefresh\\.yml)$",
+      "icon": "codefresh",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.codacy|codacy)(\\.yaml|\\.yml)?$",
+      "icon": "codacy",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(codeception\\.dist\\.yml)(\\.yaml|\\.yml)?$",
+      "icon": "codeception",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(codeship\\-steps)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "codeship",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(contact|contacts)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "contact",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(contribute|contributing|contribution)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "contribute",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.coveragerc)$",
+      "icon": "coveragerc",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.crowdin\\.yml)$",
+      "icon": "crowdin",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(deno\\.json|deno\\.jsonc)$",
+      "icon": "deno",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(deptective\\.json)$",
+      "icon": "deptective",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(dockerfile)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "docker",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(docker\\-compose)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "dockercompose",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(dockerfile).*(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)$",
+      "icon": "docker1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(docker\\-compose).*(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)$",
+      "icon": "dockercompose1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.dockerignore)$",
+      "icon": "dockerignore",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.editorconfig)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "editorconfig",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(elastic)(\\.yaml|\\.yml)?$",
+      "icon": "elastic",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(elastic).*(\\.yaml|\\.yml)$",
+      "icon": "elastic1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(eas\\.json)$",
+      "icon": "expo_eas",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(cerebro)(\\.conf)?$",
+      "icon": "cerebro",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(cerebro).*(\\.conf)$",
+      "icon": "cerebro1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(detekt\\-config\\.yml|detekt\\.yml)$",
+      "icon": "detekt",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(faq)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "faq",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(help)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "help",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(intellijcodestyle\\.xml)$",
+      "icon": "intellijcodestyle",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.mailmap)$",
+      "icon": "mailmap",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(azure\\-pipelines\\.yml)$",
+      "icon": "msazure",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(azure\\-pipelines).*(\\.yml)$",
+      "icon": "msazure1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(gatling)(\\.conf)?$",
+      "icon": "gatling",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(gatling).*(\\.conf)$",
+      "icon": "gatling1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.gitpod).*(\\.yaml|\\.yml)$",
+      "icon": "gitpod",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.go\\-arch\\-lint\\.yml).*$",
+      "icon": "golangarchlinter",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.goreleaser\\.yml).*$",
+      "icon": "goreleaser",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(gruntfile\\.js)$",
+      "icon": "grunt",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.gitattributes|\\.gitignore|\\.gitmodules|\\.gitreview)$",
+      "icon": "git",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.git\\-blame\\-ignore\\-revs)$",
+      "icon": "gitblameignorerevs",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.gitlab\\-ci\\.yml)$",
+      "icon": "gitlab",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(grafana\\.ini)$",
+      "icon": "grafana",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(graphql\\.config\\.json)$",
+      "icon": "graphqlconfig",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(graphql\\.schema\\.json)$",
+      "icon": "graphqlschema",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.gocd)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "gocd",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(go\\.mod)$",
+      "icon": "gomod",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.hadolint)(\\.yaml|\\.yml)$",
+      "icon": "hadolint",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(hibernate\\.properties)$",
+      "icon": "hibernate",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(jvm\\.properties|jvm\\.config)$",
+      "icon": "java",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.imgbotconfig)$",
+      "icon": "imgbot",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(jenkinsfile|jenkins)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "jenkins",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(jenkins).*(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)$",
+      "icon": "jenkins1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(jenkins)[^.]*$",
+      "icon": "jenkins2",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.jenkinsfile)$",
+      "icon": "jenkins3",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(jest\\.config\\.js)$",
+      "icon": "jest_js",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(jest\\.config\\.ts)$",
+      "icon": "jest_ts",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(jitpack\\.yml)$",
+      "icon": "jitpack",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.jsbeautifyrc)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "jsbeautify",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.jshintrc)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "jshint",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(junit\\-platform\\.properties)$",
+      "icon": "junit",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(justfile)$",
+      "icon": "just",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(karate\\-config\\.js)$",
+      "icon": "karate",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(karma\\.conf\\.js)$",
+      "icon": "karma_js",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(karma\\.conf\\.ts)$",
+      "icon": "karma_ts",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(kibana)(\\.yaml|\\.yml)?$",
+      "icon": "kibana",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(kibana).*(\\.yaml|\\.yml)$",
+      "icon": "kibana1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(known_issues).*$",
+      "icon": "knownissues",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(kubernetes)(\\.yaml|\\.yml)?$",
+      "icon": "kubernetes",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(kubernetes).*(\\.yaml|\\.yml)$",
+      "icon": "kubernetes1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(lerna\\.json)$",
+      "icon": "lerna",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(lgtm|\\.lgtm)(\\.yaml|\\.yml)$",
+      "icon": "lgtm",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(license|copying|license_info|additional_license_info)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "license",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(lighttpd\\.conf)$",
+      "icon": "lighttpd",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(log4j|log4j\\-test)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "log4j",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(logback)(\\.xml|\\.yml|\\.yaml|\\.properties|\\.json|\\.cfg|\\.conf|\\.ini|\\.txt)?$",
+      "icon": "logback",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(logback\\-).*$",
+      "icon": "logback1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(logstash)(\\.cfg|\\.conf|\\.yml|\\.yaml)?$",
+      "icon": "logstash",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(logstash).*(\\.cfg|\\.conf|\\.yml|\\.yaml)$",
+      "icon": "logstash1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(logstash\\-).*(\\.cfg|\\.conf|\\.yml|\\.yaml|\\.txt)$",
+      "icon": "logstash2",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(lombok\\.config)$",
+      "icon": "lombok",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(dependency\\-reduced\\-pom\\.xml)$",
+      "icon": "maven_shade_plugin",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(metro\\.config\\.js)$",
+      "icon": "metro",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(mkdocs\\.yml)$",
+      "icon": "mkdocs",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(module\\-info\\.java)$",
+      "icon": "moduleinfojava",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(.*\\.mongo\\..+)$",
+      "icon": "mongodb",
+      "ignoreCase": true,
+      "target": "file",
+      "path": true
+    },
+    {
+      "pattern": "^(\\.muse\\.toml)$",
+      "icon": "muse",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(my\\.ini)$",
+      "icon": "mysql",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(netlify\\.toml)$",
+      "icon": "netlify",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(nginx)(\\.conf)?$",
+      "icon": "nginx",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(nginx).*(\\.conf)$",
+      "icon": "nginx1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.npmrc)$",
+      "icon": "npmrc",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.npmignore)$",
+      "icon": "npmignore",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(notice)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "notice",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(noxfile\\.py)$",
+      "icon": "nox",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(nx\\.json)$",
+      "icon": "nx",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(open_issues).*$",
+      "icon": "openissues",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(package\\-info\\.java)$",
+      "icon": "packageinfojava",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(package\\.json)$",
+      "icon": "packagejson",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(package\\-lock\\.json)$",
+      "icon": "packagejsonlock",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(poetry\\.lock)$",
+      "icon": "poetry-poetry-lock",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(poetry\\.toml)$",
+      "icon": "poetry-poetry-toml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.pdd)$",
+      "icon": "pdd",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.0pdd\\.yml)$",
+      "icon": "pdd_yml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(pnpm\\-lock\\.yaml)$",
+      "icon": "pnpmlock",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.prettierrc)$",
+      "icon": "prettier",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.prettierrc\\.yml|\\.prettierrc\\.yaml)$",
+      "icon": "prettier-yml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.prettierrc\\.json|\\.prettierrc\\.json5)$",
+      "icon": "prettier-json",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.prettierrc\\.js|prettier\\.config\\.js)$",
+      "icon": "prettier-js",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.prettierrc\\.cjs|prettier\\.config\\.cjs)$",
+      "icon": "prettier-cjs",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.prettierrc\\.toml)$",
+      "icon": "prettier-toml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(prettier\\.config\\.mjs)$",
+      "icon": "prettier-config-mjs",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.prettirrc\\.mjs)$",
+      "icon": "prettirrc-mjs",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.prettierignore)$",
+      "icon": "prettierignore",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(privacy)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "privacy",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(proguard\\-rules\\.pro)$",
+      "icon": "proguard",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(prometheus)(\\.yaml|\\.yml)$",
+      "icon": "prometheus",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(puppet)(\\.conf)?$",
+      "icon": "puppet",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(puppet).*(\\.conf)$",
+      "icon": "puppet1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(pytest\\.ini)$",
+      "icon": "pytest",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(qodana\\.yaml)$",
+      "icon": "qodana",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(readme|lisezmoi)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "readme",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(redis)(\\.conf)?$",
+      "icon": "redis",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(redis).*(\\.conf)$",
+      "icon": "redis1",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.opa|\\.rego)$",
+      "icon": "rego",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(renovate\\.json|renovate\\.json5|\\.renovaterc\\.json|\\.renovaterc)$",
+      "icon": "renovate",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.restyled\\.yaml)$",
+      "icon": "restyled",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(roadmap)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "roadmap",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(rollup\\.config\\.js)$",
+      "icon": "rollup",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.rultor\\.yml)$",
+      "icon": "rultor",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(scalingo\\.json)$",
+      "icon": "scalingo",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(security)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "security",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(snapcraft\\.yaml)$",
+      "icon": "snapcraft",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(screwdriver\\.yaml)$",
+      "icon": "screwdriver",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(stackerfile\\.yml)$",
+      "icon": "stacksmith",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(sonar\\-project\\.properties|\\.sonarcloud\\.properties)$",
+      "icon": "sonar",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(svgo)(\\.yaml|\\.yml)$",
+      "icon": "svgo",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(svgo\\.config\\.js)$",
+      "icon": "svgo2",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(swagger\\-config\\.yaml)$",
+      "icon": "swaggerconfig",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.swagger\\-codegen\\-ignore)$",
+      "icon": "swaggerignore",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(tinylog\\.properties)$",
+      "icon": "tinylogproperties",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(test|testing)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "testing",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(todo)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "todo",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(tox\\.ini)$",
+      "icon": "tox",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.travis\\.yml)$",
+      "icon": "travis",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(vagrantfile)$",
+      "icon": "vagrant",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(version|\\.version|versions|\\.versions)(\\.md|\\.txt|\\.adoc|\\.rst)?$",
+      "icon": "version",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(version|\\.version|versions|\\.versions)(\\.json)$",
+      "icon": "version_json",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(version|\\.version|versions|\\.versions)(\\.properties)$",
+      "icon": "version_properties",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(version|\\.version|versions|\\.versions)(\\.yaml|\\.yml)$",
+      "icon": "version_yml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(version|\\.version|versions|\\.versions)(\\.xml)$",
+      "icon": "version_xml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(vite\\.config\\.).*(\\.js|\\.ts)$",
+      "icon": "vite",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(vitest\\.config\\.ts)$",
+      "icon": "vitest",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.weblate)$",
+      "icon": "weblate",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(webpack\\.config\\.).*(\\.js|\\.ts)$",
+      "icon": "webpack",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(werf\\.yaml)$",
+      "icon": "werf",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(writerside\\.cfg)$",
+      "icon": "writerside",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(\\.zappr\\.yaml)$",
+      "icon": "zalando",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.aac)$",
+      "icon": "ext_aac",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.zip|\\.tar|\\.gz|\\.bz2|\\.xz|\\.tgz)$",
+      "icon": "ext_archive",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.7z)$",
+      "icon": "ext_archive_7z",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.adoc|\\.asciidoc)$",
+      "icon": "ext_adoc",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.ape)$",
+      "icon": "ext_monkeys-audio",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.apk|\\.xapk)$",
+      "icon": "ext_apk",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.aiff|\\.aifc|\\.caf)$",
+      "icon": "ext_apple-audio",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.mov|\\.qt)$",
+      "icon": "ext_apple-video",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.avsc)$",
+      "icon": "ext_avro_avsc",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(bicep)$",
+      "icon": "bicep",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.bin)$",
+      "icon": "ext_bin",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.versionbackup|\\.versionsbackup|\\.bak|\\.back|\\.backup|\\.old|\\.prev|\\.revert|\\.releasebackup)$",
+      "icon": "ext_back",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.sh)$",
+      "icon": "ext_sh",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.c)$",
+      "icon": "ext_c",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.cc)$",
+      "icon": "ext_cc",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.cpp)$",
+      "icon": "ext_cpp",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.h)$",
+      "icon": "ext_h",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.hpp)$",
+      "icon": "ext_hpp",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.jks|\\.pem|\\.crt|\\.cert|\\.ca\\-bundle|\\.cer|\\.jceks|\\.p12|\\.p7b|\\.p7s|\\.pfx|\\.pubkey)$",
+      "icon": "ext_cert",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.cmd|\\.bat|\\.ps1)$",
+      "icon": "ext_cmd",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.csv)$",
+      "icon": "ext_csv",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.dar)$",
+      "icon": "ext_dar",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.deb)$",
+      "icon": "ext_deb",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.dll)$",
+      "icon": "ext_dll",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.drawio|\\.dio)$",
+      "icon": "ext_drawio",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.epub|\\.mobi|\\.azw|\\.azw3)$",
+      "icon": "ext_epub",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.exe)$",
+      "icon": "ext_exe",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.form)$",
+      "icon": "ext_form",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.graphqls)$",
+      "icon": "ext_graphqls",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.hx)$",
+      "icon": "ext_haxe",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.hxml)$",
+      "icon": "ext_haxexml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.http)$",
+      "icon": "ext_http",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.iml)$",
+      "icon": "ext_iml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.jfr)$",
+      "icon": "ext_jfr",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.jinja|\\.jinja2)$",
+      "icon": "ext_jinja",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.ini)$",
+      "icon": "ext_cfg_ini",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.cfg)$",
+      "icon": "ext_cfg_cfg",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.conf)$",
+      "icon": "ext_cfg_conf",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.config)$",
+      "icon": "ext_cfg_config",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.jar)$",
+      "icon": "ext_jar",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.jar\\.original)$",
+      "icon": "ext_jaroriginal",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.js\\.map)$",
+      "icon": "ext_jsmap",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.css\\.map)$",
+      "icon": "ext_cssmap",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.css)$",
+      "icon": "ext_css",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.js)$",
+      "icon": "ext_js",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.jsx)$",
+      "icon": "ext_js_react",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.kdbx)$",
+      "icon": "ext_kdbx",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.mkv|\\.mka)$",
+      "icon": "ext_matroska",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.md)$",
+      "icon": "ext_md",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.mdx)$",
+      "icon": "ext_mdx",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.mmd)$",
+      "icon": "ext_mmd",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.mermaid)$",
+      "icon": "ext_mermaid",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.mmd)$",
+      "icon": "ext_mermaid_mmd",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.mp3|\\.mp1|\\.m1a|\\.mp2|\\.m2a|\\.mpa)$",
+      "icon": "ext_mpeg",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.mwb)$",
+      "icon": "ext_mwb",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.nsi)$",
+      "icon": "ext_nsi",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.tf)$",
+      "icon": "ext_opentofu_tf",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.tf\\.json)$",
+      "icon": "ext_opentofu_tf_json",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.pdf)$",
+      "icon": "ext_pdf",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.pid)$",
+      "icon": "ext_pid",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.postman\\.json)$",
+      "icon": "ext_postmanconfig",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.puml)$",
+      "icon": "ext_puml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(postman_collection\\.json)$",
+      "icon": "ext_postmancollection",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(postman_environment\\.json)$",
+      "icon": "ext_postmanenvironment",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.rpm)$",
+      "icon": "ext_rpm",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.robot)$",
+      "icon": "ext_robotframework",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.sass)$",
+      "icon": "sass",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.scss)$",
+      "icon": "scss",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.less)$",
+      "icon": "less",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.styl)$",
+      "icon": "ext_stylus-browserext",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.svg)$",
+      "icon": "ext_svg",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.hcl|\\.tf|\\.tf\\.json)$",
+      "icon": "ext_tf",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.toml)$",
+      "icon": "ext_toml",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.spec\\.ts)$",
+      "icon": "typescript",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.ts)$",
+      "icon": "typescript-ts",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.tsx)$",
+      "icon": "typescript-react",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.3g2|\\.3gp|\\.avi|\\.divx|\\.f4a|\\.f4b|\\.f4p|\\.f4v|\\.flv|\\.m2t|\\.m4p|\\.m4v|\\.mp4|\\.mpg|\\.mpeg|\\.ogm|\\.ogv|\\.ts|\\.tsa|\\.tsv|\\.vob|\\.webm|\\.wmv|\\.xvid)$",
+      "icon": "ext_video",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.vtl)$",
+      "icon": "ext_velocity",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.code\\-workspace)$",
+      "icon": "ext_vscode-workspace",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.war)$",
+      "icon": "ext_war",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.whl)$",
+      "icon": "ext_wheel",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.wma)$",
+      "icon": "ext_wma",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.flac|\\.oga|\\.ogg|\\.opus|\\.spx)$",
+      "icon": "ext_xiph",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.yang)$",
+      "icon": "ext_yang",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.ods)$",
+      "icon": "ext_libreoffice_calc",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.odg)$",
+      "icon": "ext_libreoffice_draw",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.odp)$",
+      "icon": "ext_libreoffice_impress",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.odf)$",
+      "icon": "ext_libreoffice_math",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.odt)$",
+      "icon": "ext_libreoffice_writer",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.xls|\\.xlsx)$",
+      "icon": "ext_msoffice_excel",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.one|\\.onetoc2)$",
+      "icon": "ext_msoffice_onenote",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.ppt|\\.pptx)$",
+      "icon": "ext_msoffice_powerpoint",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.mpd|\\.mpp|\\.mpt)$",
+      "icon": "ext_msoffice_project",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.vsd|\\.vsdx|\\.vss|\\.vssx|\\.vst|\\.vstx)$",
+      "icon": "ext_msoffice_visio",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(\\.doc|\\.docx)$",
+      "icon": "ext_msoffice_word",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^(dockerfile).*$",
+      "icon": "docker_generic",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    },
+    {
+      "pattern": "^.*(dockerfile)$",
+      "icon": "docker_generic_2",
+      "ignoreCase": true,
+      "target": "file",
+      "path": false
+    }
+  ],
+  "settings": [
+    {
+      "title": "图标",
+      "items": [
+        {
+          "option": "iconSize",
+          "label": "图标大小",
+          "default": 16
+        }
+      ]
+    }
+  ]
+}

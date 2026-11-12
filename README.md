@@ -10,7 +10,7 @@
 
 安装后在 **设置 › 插件 › Extra Icons** 中应用主题，也可在 **设置 › 外观与行为 › 外观 › 文件图标主题** 中选择。主题设置页可调整图标尺寸，默认 16 像素。
 
-需要 OpenIDEA 插件 API 1.0 或更新版本。插件只包含清单、映射和 SVG，**没有 WASM、激活程序或权限申请**；无需网络、文件读写或进程权限。未匹配的文件和文件夹保留 OpenIDEA 默认图标；宿主为源码根目录、排除目录和模块保留其内置图标。
+需要 OpenIDEA 插件 API 1.2 或更新版本。0.2.0 新增插件列表和详情页图标，使用独立绘制的彩色图标网格，不使用上游插件商标。插件只包含清单、映射和 SVG，**没有 WASM、激活程序或权限申请**；无需网络、文件读写或进程权限。未匹配的文件和文件夹保留 OpenIDEA 默认图标；宿主为源码根目录、排除目录和模块保留其内置图标。
 
 ## 移植范围
 
@@ -34,7 +34,7 @@ python scripts/check_theme.py
 openidea-plugin check .
 openidea-plugin keygen /安全目录/song-cc-rock.key
 openidea-plugin pack . --key /安全目录/song-cc-rock.key --publisher song-cc-rock
-openidea-plugin check song-cc-rock.extra-icons-0.1.0.oiplugin
+openidea-plugin check song-cc-rock.extra-icons-0.2.0.oiplugin
 ```
 
 发布者密钥只生成一次并妥善保存，不能提交到仓库。GitHub Actions 使用 OpenIDEA v0.1.40 官方工具检查源目录及打包结果。

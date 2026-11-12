@@ -1,11 +1,12 @@
 id = "song-cc-rock.extra-icons"
 name = "Extra Icons"
-version = "0.1.0"
+version = "0.2.0"
 description = "移植 Extra Icons 开源版的文件和文件夹图标，保留原有样式、深浅色变体和 16 像素默认尺寸。"
 authors = ["song-cc-rock"]
 license = "MIT"
 categories = ["icon-themes"]
-engines.openidea = "^1.0"
+icon = "icon.svg"
+engines.openidea = "^1.2"
 
 [[contributes.iconThemes]]
 id = "extra-icons"
